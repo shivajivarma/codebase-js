@@ -1,5 +1,3 @@
-
-
 var cookieFunctions = {
 
 	/* Function to set JSON Object as cookie */
