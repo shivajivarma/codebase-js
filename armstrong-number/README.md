@@ -10,19 +10,19 @@ Another example, 153. 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
 
 ###CODE
 ```c
-int isArmstrong(int num){
+function isArmstrong(num){
     
-    int temp = num,sum=0,digit;
+    var temp = num, sum = 0, digit;
     
-    while (temp != 0) {
-    	digit = temp % 10;
-		sum=sum +(digit*digit*digit);
-		temp=temp/10;
+    while (temp !== 0) {
+    	digit = parseInt(temp % 10);
+		sum = sum + (digit * digit * digit);
+		temp = parseInt(temp/10);
 	}
     
-    if(num == sum)
-        return 1; // Success
+    if(num === sum)
+        return true; // Success
     
-    return 0; // Failure
+    return false; // Failure
 }
 ```
