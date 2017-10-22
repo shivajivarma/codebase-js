@@ -1,10 +1,10 @@
-[Leap Year](http://codemons.com/codebase/leap-year/)
+[Leap Year](http://shivajivarma.com/code-base/2017/07/08/leap-year/)
 =========
 
 > Program to check whether a year is leap year or not
 
-###CODE
-```c
+### CODE
+```javascript
 function isLeapYear(year) {
 
     if (year % 4 === 0) {
