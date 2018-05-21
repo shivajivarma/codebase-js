@@ -7,9 +7,7 @@ function isArmstrong(num){
 		sum = sum + (digit * digit * digit);
 		temp = parseInt(temp/10);
 	}
+  
     
-    if(num === sum)
-        return true; // Success
-    
-    return false; // Failure
+    return (num === sum); // True if Success
 }
