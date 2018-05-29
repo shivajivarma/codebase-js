@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/shivajivarma/codebase-js.svg?branch=master)](https://travis-ci.org/shivajivarma/codebase-js)
+[![Coverage Status](https://coveralls.io/repos/github/shivajivarma/codebase-js/badge.svg?branch=master)](https://coveralls.io/github/shivajivarma/codebase-js?branch=master)
+
 Code Base
 ===========
 
