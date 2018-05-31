@@ -1,10 +1,10 @@
 function isArmstrong(num) {
-  let temp = num,
-      sum = 0,
-      digit;
+  let temp = num;
+  let sum = 0;
+  let digit;
 
   while (temp !== 0) {
-    digit = parseInt(temp % 10);
+    digit = temp % 10;
     sum = sum + (digit * digit * digit);
     temp = parseInt(temp / 10);
   }
