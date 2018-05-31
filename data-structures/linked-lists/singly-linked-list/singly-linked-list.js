@@ -50,6 +50,25 @@ class SinglyLinkedList {
         console.log(output);
     }
     
+    toArray() {
+        let array = [];
+        if (this.size === 0) {
+            // do nothing
+        } else if (this.head.getLink() == null) {
+            array.push(this.head.getData());
+        } else {
+            let ptr = this.head;
+            array.push(this.head.getData());
+            ptr = this.head.getLink();
+            while (ptr.getLink() != null) {
+                array.push(ptr.getData())
+                ptr = ptr.getLink();
+            }
+            array.push(ptr.getData());
+        }
+        return array;
+    }
+    
 }
 
 module.exports = SinglyLinkedList;
