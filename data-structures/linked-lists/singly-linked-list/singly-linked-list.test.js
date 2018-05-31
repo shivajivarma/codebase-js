@@ -8,4 +8,11 @@ describe('singly linked list', () => {
     assert.equal(list.getSize(), 0);
   });
 
+  it('insert at the start of linked list', () => {
+    let list = new SinglyLinkedList();
+    list.insertAtStart(12);
+    assert.equal(list.getSize(), 1);
+  });
+
+  
 });
