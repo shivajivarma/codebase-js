@@ -6,4 +6,7 @@ describe('binary search', () => {
     assert.equal(binarySearch([1, 3, 5, 12, 44], 12), 3);
     assert.equal(binarySearch([-1, 0, 1, 3, 5, 12, 44], 44), 6);
   });
+  it('should not find the number', () => {
+    assert.equal(binarySearch([-1, 0, 1, 3, 5, 12, 44], 49), -1);
+  });
 });
